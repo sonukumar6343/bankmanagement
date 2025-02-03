@@ -1,0 +1,65 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .bank-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bank-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bank-form button:hover {
+    background: #0056b3;
+  }
+  
+  .bank-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bank-list li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .bank-list button {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .bank-list button:nth-child(2) {
+    background: #28a745;
+  }
+  
+  .bank-list button:nth-child(3) {
+    background: #dc3545;
+  }
+  
