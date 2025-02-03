@@ -1,2 +1,2 @@
-const backendDomain ="http://localhost:8000";
+const backendDomain ="https://bankserver-1tqv.onrender.com";
 export{backendDomain};
